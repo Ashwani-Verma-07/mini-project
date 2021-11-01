@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .social-icons{
+            width: 30px;
+            height: 30px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 32px;
+            padding-left: 32px;
+        }
+        form{
+            text-align: center;
+            background-color: white;
+            width: 500px;
+            height: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        #form-heading{
+            font-size: 32px;
+            padding-top:12px;
+            padding-bottom:12px;
+        }
+        #social-wrapper{
+            background-color: rgb(250, 250, 244);
+        }
+        .input-box{
+            font-size: 15px;
+            padding-bottom: 12px;
+            margin-bottom:24px;
+            border:0;
+            border-bottom: 1px solid #cccc;
+        }
+        #input-wrapper{
+padding-bottom: 16px;
+padding-right: 50px;
+padding-left: 50px;
+padding-top: 32px;
+        }
+        #btn{
+            background-color: #0056ff;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+            color: white;
+            border:none;
+
+        }
+       .input-area{
+        border-bottom: 1px solid #cccc;
+        border: 0;
+        max-height: 24in;
+        font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom:32px;
+       }
+    </style>      
+</head>
+<body>
+    <form>
+        <h1 id="form-heading">Contact Us</h1>
+        <div id="social-wrapper">
+            <img class="social-icons" 
+src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png"
+            alt="google logo"/>
+            <img class="social-icons" 
+src="https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-logo-3.png"
+            alt=" facebook logo"/>
+            <img class="social-icons" 
+            src="https://mpng.subpng.com/20180326/gxq/kisspng-github-computer-icons-icon-design-github-5ab8a31e334e73.4114704215220498222102.jpg"
+            alt="github logo"/>
+            <img class="social-icons" 
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+            alt="linkdin logo"/>
+            
+        </div>
+        <div id="input-wrapper">
+            <div>
+                <input class="input-box"
+                type="text"
+                name="username"
+                placeholder="Username">
+            </div>
+            <div>
+                <input class="input-box"
+                type="email"
+                name="email"
+                placeholder="Email">
+            </div>
+            <div>
+                <input class="input-box"
+                type="password"
+                name="password"
+                placeholder="Password">
+            </div>
+            <div>
+                <input class="input-box"
+                type="tel"
+                name="telephone"
+                value=""
+                placeholder="Your mobile/telephone">
+                
+            </div>
+            <div>
+             
+               <span> <textarea name="your-message" rows="10" cols="30" 
+                placeholder="Message"
+                aria-required="true"
+                aria-invalid="false"
+                aria-placeholder="Message"
+                ></textarea> 
+                </span>
+               
+            </div>
+<input id ="btn"
+type="submit"
+value="Send"
+onclick="self.close()">
+    </div>
+    </form>
+</body>
+</html>
