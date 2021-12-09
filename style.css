@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background-color: #eeeaea;
+  background-color: rgb(243, 243, 243);
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
