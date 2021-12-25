@@ -109,12 +109,12 @@ nav ul li + li + li {
 nav a {
   color: #fafafa;
   text-decoration: none;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 nav a:hover {
   color: #ff7979;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .content img {
@@ -165,9 +165,10 @@ nav a:hover {
   font-weight: 600;
   max-width: fit-content;
 }
-.counter-container :hover {
-  color: rgb(207, 200, 200);
+.logo :hover {
+  color: rgb(29, 24, 24);
   position: relative;
+  transform: scale(1.2);
 }
 
 .counter {
@@ -177,4 +178,11 @@ nav a:hover {
 .new-content {
   max-width: 1000px;
   overflow-x: visible;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(233, 18, 18);
+  text-decoration: underline;
 }
