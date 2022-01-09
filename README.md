@@ -6,4 +6,4 @@
 https://user-images.githubusercontent.com/89683890/145388038-282b21e4-ca9f-47f2-bbc4-529accd70a38.mp4
 
 # # open-in-incognito window
-https://fgvbdxfgx8b3ney7nlyryg-on.drv.tw/www.mini-project.com/home_page.html
+[Project_link](https://fgvbdxfgx8b3ney7nlyryg-on.drv.tw/www.mini-project.com/home_page.html)
