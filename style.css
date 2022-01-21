@@ -6,7 +6,20 @@ body {
   margin: 0;
   width: fit-content;
 }
-
+* {
+  box-sizing: border-box;
+}
+.html {
+  background-size: 100% 100%;
+  orientation: landscape;
+}
+.body {
+  max-width: 100%;
+  background-size: 100% 100%;
+}
+.nav-bar {
+  position: fixed;
+}
 .container {
   background-color: rgb(252, 247, 247);
   transform-origin: top left;
@@ -17,7 +30,7 @@ body {
 }
 
 .container.show-nav {
-  transform: rotate(-22deg);
+  transform: rotate(-20deg);
 }
 
 .circle-container {
@@ -157,18 +170,13 @@ nav a:hover {
 .counter-container {
   display: table-cell;
   flex-direction: row;
-  justify-content: center;
   text-align: center;
-  margin-right: 1in;
-  padding-right: 20px;
-  margin: 20px 50px;
   color: rgb(29, 24, 24);
   font-weight: 600;
-  max-width: fit-content;
+  max-width: 1000px;
 }
 .logo :hover {
   color: rgb(29, 24, 24);
-  position: relative;
   transform: scale(1.2);
 }
 
@@ -177,8 +185,8 @@ nav a:hover {
   margin: auto;
 }
 .new-content {
-  max-width: 1000px;
-  overflow-x: visible;
+  max-width: 100%;
+  height: auto;
 }
 a {
   text-decoration: none;
