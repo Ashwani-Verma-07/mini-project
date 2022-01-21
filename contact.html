@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <link rel="stylesheet" href="style-1.css">
+
+</head>
+</body>
+<div style="background-image: url('https://www.linkpicture.com/q/486036.jpg');" class="image">
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
+                    aria-labelledby="home-tab">
+                    <h3 class="register-heading">User Registration</h3>
+                    <div class="row register-form">
+                        <div class="col-md-12">
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div id="social-wrapper">
+                                    <img class="social-icons"
+                                        src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png"
+                                        alt="google logo" />
+                                    <img class="social-icons"
+                                        src="https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-logo-3.png"
+                                        alt=" facebook logo" />
+                                    <img class="social-icons" src="github.png" alt="github logo" />
+                                    <img class="social-icons" src="linkedin-logo-png-1837.png" alt="linkdin logo" />
+
+                                </div><br><br>
+                                <div class="form-group">
+                                    <input type="text" name="Name" class="form-control" placeholder="Your Name *"
+                                        value="" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Email" class="form-control" placeholder="Your Email *"
+                                        value="" required="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" name="Phone" class="form-control"
+                                        placeholder="Your Contact Number *" value="" required="" aria-invalid="false" />
+                                </div>
+                                <div class="form-group">
+                                    <!-- <input type="text" name="Message" class="form-control" placeholder="Your Message"> -->
+                                    <textarea name="Message" id="messageMe" aria-required="true"  cols="52" onclick="document.getElementById('btn').value=''" rows="autocomplete" placeholder="Message"></textarea>
+
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btnSubmit btn-block" value="Send" 
+                                  />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9836.013599588534!2d-77.00760623284347!3d42.86726450872738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4630!5e0!3m2!1sen!2sin!4v1565698401744!5m2!1sen!2sin" height="300" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe></div>
+
+
+   <script src="script-1.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+
+</html>
