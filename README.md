@@ -1,6 +1,7 @@
 # mini-project
-![Screenshot (16)](https://user-images.githubusercontent.com/89683890/140782937-4202fcd4-c714-4b30-ad15-72ebbf496641.png)
+![Home](https://user-images.githubusercontent.com/89683890/165253221-52b39771-753e-4688-8875-251a256a7c53.png)
+
 # home-page
-![Screenshot (12)](https://user-images.githubusercontent.com/89683890/140783036-9224b6ed-14e7-4ad7-abc9-bb7701c96490.png)
+![Rotate](https://user-images.githubusercontent.com/89683890/165253226-99ff18e5-0ca0-4b27-804c-a29d33eaf7e4.png)
 # # Live-link
-[Project_link](https://hardcore-noyce-4fae0e.netlify.app/index.html)
+[Project_link](https://ashwani-verma-07.github.io/mini-project/)
