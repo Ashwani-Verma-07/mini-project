@@ -15,12 +15,8 @@
   margin-left: 4vw;
 }
 .image {
-  max-width: 100%;
   height: fit-content;
-  float: center;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: 1980px 1080px;
   background-size: 100% 100%;
 }
 
@@ -91,6 +87,7 @@ textarea {
   }
   .register-heading {
     font-size: 3vw;
+    color: black;
   }
 }
 #map {
